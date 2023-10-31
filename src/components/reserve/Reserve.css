@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .center {
+    margin: auto;
+    width: 50%;
+    /* border: 3px solid green; */
+    /* padding: 10px; */
+  }
+
+  /* Add spacing between input fields in a div */
+.input-container {
+    margin-bottom: 10px; /* Adjust the margin-bottom as needed */
+    padding: 8px;
+  }
+
+  .button-container {
+    float: right;
+  }
+
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    /* border: 2px solid #D27D2D; */
+    border-radius: 4px;
+    resize: vertical;
+    font-family: 'Montserrat', sans-serif;
+    color: #D27D2D;
+    font-size: 20px;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+  background-color: #D27D2D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right !important;
+  font-family: 'Montserrat', sans-serif;
+}
+  
+  input[type=submit]:hover {
+    background-color: white;
+    color : #D27D2D !important;
+    border: 1px solid #D27D2D;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    font-family: 'Montserrat', sans-serif;
+      color: #D27D2D;
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+    /* font-size: 50px; */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  input[type="date"] {
+    outline: none;
+  }
+  
+  input[type="date"]::-webkit-clear-button {
+    font-size: 18px;
+    height: 30px;
+    position: relative;
+  }
+  
+  input[type="date"]::-webkit-inner-spin-button {
+    height: 28px;
+  }
+  
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    font-size: 15px;
+  }
+  

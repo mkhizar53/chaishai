@@ -1,0 +1,128 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: white;
+    /* make text bold */
+    font-weight: 600;
+}
+
+.logo {
+    font-size: 30px !important;
+    color: #D27D2D; /* Chocolate brown color */
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul li {
+    margin-left: 20px;
+    padding: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    /* color: #5d4037;  */
+    /* Chocolate brown color */
+    font-size: 30px !important;
+}
+
+/* Updated CSS for Bootstrap Navbar */
+.navbar {
+    background-color: white !important;
+    font-size: 34px !important;
+}
+
+.navbar-brand {
+    color: blue !important; /* Chocolate brown color */
+    font-size: 30px !important;
+}
+
+.navbar-nav .nav-link {
+    color: #5c5e63; /* Chocolate brown color */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #D27D2D; /* Chocolate brown color */
+}
+
+header {
+    height: 100vh;
+    /* background-image: url('your-background-image.jpg'); */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #D27D2D; /* Chocolate brown color */
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #D27D2D;;
+    border: 2px solid #D27D2D; /* Chocolate brown color */
+    border-radius: 10px;
+    /* Chocolate brown color */
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: white; /* Chocolate brown color */
+    color: #D27D2D;
+    text-decoration: none;
+}
+
+.cta-button2{
+    border: 2px solid #D27D2D; /* Chocolate brown color */
+    border-radius: 10px;
+    background-color: white; /* Chocolate brown color */
+    color: #D27D2D !important;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.cta-button2:hover {
+    background-color: #D27D2D; /* Chocolate brown color */
+    color: white !important;
+    text-decoration: none;
+}
+
+.card {
+    margin: 5px;
+    display:inline-block;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    ul {
+        margin-top: 20px;
+    }
+
+    ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+}

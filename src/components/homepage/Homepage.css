@@ -1,0 +1,44 @@
+/* YourStyles.css */
+.homepage-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh; /* Adjust the height as needed */
+  }
+  
+  .content {
+    font-size: 25px;
+    text-align: center;
+    color: #D27D2D;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #D27D2D; /* Adjust the text color */
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    /* make it italicized */
+    font-style: italic;
+  }
+  
+  .reserve-button {
+    padding: 10px 20px;
+    font-size: 25px;
+    font-weight: 600 !important;
+    background-color: #D27D2D; /* Adjust the button color */
+    color: white !important; /* Adjust the button text color */
+    border: 2px solid #D27D2D !important; /* Chocolate brown color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Nunito', sans-serif !important;
+  }
+  
+  .reserve-button:hover {
+    background-color: white; /* Adjust the button color on hover */
+    color: #D27D2D !important; /* Adjust the button text color on hover */
+  }
+  
