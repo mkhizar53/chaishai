@@ -1,18 +1,22 @@
-import HomePage from './components/homepage/Homepage';
+import HomePage from './components/homepage/Homepage'
 import Navbar from './components/navbar/Navbar';
 import Reserve from './components/reserve/Reserve';
-import { BrowserRouter as Router, Routes, Route }
-    from 'react-router-dom';
+import About from './components/about/About'
+import { ErrorBoundary } from './components/errorBoundary/ErrorBoundary';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
+    <div className='App'>
+      <ErrorBoundary>
         <Navbar />
-        <HomePage />
         <Routes>
-            <Route path='/reserve' element={<Reserve />} />
+          <Route path='/' element={ <HomePage /> } />
+          <Route path='/about' element={ <About /> } />
+          <Route path='/reserve' element={ <Reserve /> } />
         </Routes>
-    </Router>
+      </ErrorBoundary>
+    </div>
   );
 }
 
